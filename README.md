@@ -1,31 +1,20 @@
-# Express.js on Vercel
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Basic Express.js + Vercel example that serves html content, JSON data and simulates an api route.
+# Run and deploy your AI Studio app
 
-## How to Use
+This contains everything you need to run your app locally.
 
-You can choose from one of the following two methods to use this repository:
+View your app in AI Studio: https://ai.studio/apps/drive/1uvRndjR0ZxIb_M1G0X-HUz4_anvPTB4D
 
-### One-Click Deploy
+## Run Locally
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+**Prerequisites:**  Node.js
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/solutions/express&project-name=express&repository-name=express)
 
-### Clone and Deploy
-
-```bash
-git clone https://github.com/vercel/examples/tree/main/solutions/express
-```
-
-Install the Vercel CLI:
-
-```bash
-npm i -g vercel
-```
-
-Then run the app at the root of the repository:
-
-```bash
-vercel dev
-```
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
